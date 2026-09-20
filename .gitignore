@@ -1,0 +1,30 @@
+# Credentials
+.env
+.env.*
+kaggle.json
+access_token
+.kaggle/
+
+# Jupyter/Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Downloaded datasets and caches
+MAGFiLO_1.0_Kaggle_2026/
+cache_preprocessed/
+*.zip
+*.archive
+
+# Generated YOLO data/runs
+yolo-segmentation/
+yolo_segmentation_code/dataset/
+yolo_segmentation_code/runs/
+yolo_segmentation_code/*.pt
+yolo_segmentation_code/weights/
+runs/
+
+# IDE/OS
+.vscode/
+.DS_Store
+Thumbs.db
